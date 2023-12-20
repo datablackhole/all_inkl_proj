@@ -188,7 +188,7 @@
 <script src="https://cdn.datatables.net/v/bs4-4.6.0/dt-1.13.8/datatables.min.js"></script>
 
 <!-- Include the external JS file -->
-<script src="app.js"></script>
+<script src="app.js?v=<?php echo time();?>"></script>
 
 
 
