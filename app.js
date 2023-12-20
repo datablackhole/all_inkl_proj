@@ -103,7 +103,7 @@ function execSQL() {
     }).fail(function(xhr, status, error) {
         // Error callback
         if (xhr.status == 500) {
-            alert("Internal Server Error: Please check your server-side code.");
+            alert("Internal Server Error: Unable to get data. Please check your sql !");
         } else {
             alert("An error occurred: " + status + " - " + error);
         }
